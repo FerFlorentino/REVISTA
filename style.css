@@ -113,3 +113,15 @@ footer {
     color: white;
     padding: 25px;
 }
+.imagens-duplas {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imagens-duplas img {
+    width: 48%;
+    height: auto;
+    border-radius: 8px;
+}

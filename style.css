@@ -11,25 +11,60 @@ body {
     line-height: 1.6;
 }
 
-header {
+.capa {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 80px 20px;
+
     background-color: #3f3151;
     color: white;
+    padding: 60px 20px;
 }
 
-header h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
+.capa-conteudo {
+    max-width: 800px;
 }
 
-header p {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-header span {
+.edicao {
     font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.capa h1 {
+    font-size: 70px;
+    line-height: 0.95;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.capa h1 span {
+    font-weight: normal;
+}
+
+.subtitulo {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.linha {
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin: 25px auto;
+}
+
+.escola {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.turma {
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 
 nav {
